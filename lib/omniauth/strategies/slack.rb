@@ -40,6 +40,7 @@ module OmniAuth
       
       # OAuth2::Client options.
       option :client_options, {
+        access_token_class: OmniAuth::Slack::OAuth2::AccessToken,
         site: 'https://slack.com',
         authorize_url: '/oauth/v2/authorize',
         token_url: '/api/oauth.v2.access',
