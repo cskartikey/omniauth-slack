@@ -2,10 +2,10 @@
 require File.expand_path('../lib/omniauth-slack/version', __FILE__)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'ginjo-omniauth-slack'
+  spec.name          = 'cskartikey-omniauth-slack'
   spec.version       = OmniAuth::Slack::VERSION
-  spec.authors       = ['kimura', 'ginjo']
-  spec.email         = ['kimura@enigmo.co.jp', 'wbr@mac.com']
+  spec.authors       = ['kimura', 'ginjo', 'cskartikey']
+  spec.email         = ['kimura@enigmo.co.jp', 'wbr@mac.com', 'me@cskartikey.dev']
   spec.description   = %q{OmniAuth strategy for Slack}
   spec.summary       = %q{OmniAuth strategy for Slack, based on OAuth2 and OmniAuth}
   spec.homepage      = 'https://github.com/ginjo/omniauth-slack.git'
